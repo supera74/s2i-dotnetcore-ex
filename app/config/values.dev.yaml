@@ -1,5 +1,15 @@
 image:
   registry: image-registry.openshift-image-registry.svc:5000
-  repository: almat-test-build/imagename
+  repository: almat-test-build/ipos-image
 service:
   port: 8080
+envVars:
+  example_1: testvalue
+  example_2: true
+limits:
+  cpu: 500m
+  memory: 512Mi
+requests:
+  cpu: 10m
+  memory: 256Mi
+  
