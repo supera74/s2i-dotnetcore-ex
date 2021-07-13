@@ -3,3 +3,14 @@ image:
   repository: almat-test-build/dotnetexample
 service:
   port: 8080
+envVars:
+  ORDER_APP: true
+  EXAMPLE2_ENABLED: true
+  EXAMPLE3: Admin
+  Myapp: testingvar
+limits:
+  cpu: 500m
+  memory: 512Mi
+requests:
+  cpu: 10m
+  memory: 256Mi
