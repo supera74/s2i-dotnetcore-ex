@@ -8,9 +8,10 @@ envVars:
   EXAMPLE2_ENABLED: true
   EXAMPLE3: Admin
   Myapp: testingvar
-limits:
-  cpu: 500m
-  memory: 512Mi
-requests:
-  cpu: 10m
-  memory: 256Mi
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 10m
+    memory: 256Mi
