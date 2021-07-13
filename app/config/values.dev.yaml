@@ -1,0 +1,5 @@
+image:
+  registry: image-registry.openshift-image-registry.svc:5000
+  repository: almat-test-build/dotnetexample
+service:
+  port: 8080
