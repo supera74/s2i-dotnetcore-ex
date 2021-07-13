@@ -1,17 +1,5 @@
 image:
   registry: image-registry.openshift-image-registry.svc:5000
-  repository: almat-test-build/dotnetexample
+  repository: almat-test-build/imagename
 service:
   port: 8080
-envVars:
-  ORDER_APP: true
-  EXAMPLE2_ENABLED: true
-  EXAMPLE3: Admin
-  Myapp: testingvar
-resources:
-  limits:
-    cpu: 500m
-    memory: 512Mi
-  requests:
-    cpu: 10m
-    memory: 256Mi
